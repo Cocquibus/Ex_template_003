@@ -1,0 +1,46 @@
+@media (min-width:320px) and (max-width:768px){
+    .topmenu,.topmenu_liste{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px !important;
+    }
+    .topmenu_logo{
+        margin: 10px 0px;
+        font-size: 2rem;
+    }
+    .topmenu_liste li{
+        margin: 10px 0px;
+    }
+    .startcss_descriptif{
+        margin-top: 30px 0px;
+        font-size: 1.2rem;
+    }
+    .portfolio_grille{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .portfolio_titre h1{
+        display: none;
+    }
+    .about_part1,.about_part2{
+        margin: 20px !important;
+        font-size: 0.7rem !important;
+    }
+    .formulaire_titre{
+        margin: 30px 0px !important;
+    }
+    .formulaire_full{
+        margin: 10px;
+        width: 100%;
+    }
+    .pied{
+        flex-direction: column;
+    }
+    .pied_centrage{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px !important;
+        align-items: center;
+    }
+}

@@ -1,0 +1,156 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/*color 1 #2C3E50*/
+/*color 2 #DC3545*/
+/*color 3 #1A252F*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background-color: #2C3E50;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.topmenu{
+    display: flex;
+    width: 90%;
+    color: white;
+    padding: 20px;
+    justify-content: space-around;
+}
+.topmenu_liste{
+    display: flex;
+}
+.topmenu_liste li{
+    margin: 0px 10px;
+}
+.startcss{
+    background-color: #DC3545;
+}
+.startcss_global{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.startcss_titre{
+    margin-top: 30px;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+.startcss_descriptif{
+    color: white;
+}
+.portfolio{
+    justify-content: center;
+    display: flex;
+}
+.portfolio_titre{
+    margin-top: 100px;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.portfolio_grille{
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.portfolio_select{
+    margin: 10px;
+}
+.portfolio_select img{
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #DC3545;
+    padding-bottom: 100px;
+}
+.about_titre{
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-size: 2em;
+}
+.about_part{
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.hrformulaire{
+    width: 100%;
+    margin: 20px 0px;
+    opacity: 0.1;
+}
+input{
+    border: none;
+}
+.formulaire{
+    width: 100%;
+    margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+}
+.formulaire_titre{
+    margin: 50px 0px;
+    font-size: 2rem;
+    text-align: center;
+}
+.formulaire_full{
+    width: 30%;
+}
+.btnsend{
+    width: 100px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: #DC3545;
+}
+.labelmsg{
+    margin-bottom: 200px;
+}
+.pied{
+    background-color: #2C3E50;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.pied_centrage{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.pied_centrage div{
+    width: 250px;
+}
+.pied_centrage{
+    padding: 60px 0px 40px 0px;
+}
+.pied_centrage h1{
+    padding-bottom: 30px;
+}
+.pied_centrage span{
+    color: green;
+}
+.footfoot{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1A252F;
+}
+.pied_ligne{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
