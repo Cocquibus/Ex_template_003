@@ -23,8 +23,9 @@
         display: none;
     }
     .about_part1,.about_part2{
-        margin: 20px !important;
-        font-size: 0.7rem !important;
+        margin: 10px !important;
+        font-size: 1.2rem !important;
+        text-align: center;
     }
     .formulaire_titre{
         margin: 30px 0px !important;
@@ -42,5 +43,19 @@
         text-align: center;
         margin: 0px !important;
         align-items: center;
+    }
+    .about_part{
+        flex-direction: column;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .about_part{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about_part1,.about_part2{
+        margin: 10px !important;
+        font-size: 1.2rem !important;
+        text-align: center;
     }
 }
